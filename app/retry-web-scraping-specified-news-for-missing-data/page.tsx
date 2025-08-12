@@ -23,7 +23,6 @@ export default () => {
             });
 
             const result = await response.json();
-            alert(`success: ${result?.success}`);
             console.log("result:", result);
         } catch (error) {
             console.error("API Error:", error);
