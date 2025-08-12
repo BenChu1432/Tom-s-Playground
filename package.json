@@ -1,0 +1,36 @@
+{
+    "name": "ben's-playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start:dev:ben": "env-cmd -f .env-cmdrc -e default,dev_ben next dev",
+        "start:poc:local": "env-cmd -f .env-cmdrc -e default,poc next dev",
+        "start:dev:frank": "env-cmd -f .env-cmdrc -e default,dev_frank next dev",
+        "start:poc": "env-cmd -f .env-cmdrc -e default,poc next dev",
+        "build:poc": "env-cmd -f .env-cmdrc -e default,poc next build",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "env-cmd": "^10.1.0",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@mui/material": "^7.2.0",
+        "@mui/x-date-pickers": "^8.8.0",
+        "@types/node": "^24.0.8",
+        "@types/react": "^19.1.8",
+        "date-fns": "^4.1.0",
+        "dayjs": "^1.11.13",
+        "framer-motion": "^12.23.0",
+        "lucide-react": "^0.525.0",
+        "next": "^15.3.4",
+        "react": "^19.1.0",
+        "react-dom": "^19.1.0"
+    }
+}
