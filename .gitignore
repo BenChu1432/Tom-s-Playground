@@ -1,3 +1,5 @@
 .next
 
 .env-cmdrc
+
+node_modules
