@@ -17,7 +17,7 @@ export default () => {
         const mediaName = selectedMedia?.label;
         try {
             console.log("BACKEND_URL:", NEXT_PUBLIC_BACKEND_URL);
-            const response = await fetch(`${NEXT_PUBLIC_BACKEND_URL}/web-scraping/retry-parsing-by-media/${mediaName}`, {
+            const response = await fetch(`${NEXT_PUBLIC_BACKEND_URL}/web-scraping/retry-scraping-existent-news-by-media/${mediaName}`, {
                 method: "post",
                 headers: {
                     "Content-Type": "application/json",
