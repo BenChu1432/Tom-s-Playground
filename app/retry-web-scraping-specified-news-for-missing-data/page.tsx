@@ -9,7 +9,7 @@ const NEXT_PUBLIC_BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 export default () => {
     const [data, setData] = useState<Article[] | undefined>(undefined);
     const [selectedMedia, setSelectedMedia] = useState<{ label: string } | null>(null);
-    const [selectedFilter, setSelectedFilter] = useState<string | null>(null);
+    const [selectedFilter, setSelectedFilter] = useState<string>('published_at');
 
     const handleStartScraping = async () => {
         const mediaName = selectedMedia?.label;
