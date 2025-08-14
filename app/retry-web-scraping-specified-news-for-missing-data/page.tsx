@@ -55,6 +55,7 @@ export default () => {
                         >
                             <MenuItem value={"author"}>author</MenuItem>
                             <MenuItem value={"published_at"}>published_at</MenuItem>
+                            <MenuItem value={"title"}>title</MenuItem>
                             <MenuItem value={"native"}>native</MenuItem>
                         </Select>
                     </div>
