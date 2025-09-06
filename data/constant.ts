@@ -57,6 +57,10 @@ const newsSources = [
     { label: "ETtoday" },
     { label: "NewTalk" },
     { label: "FTV" },
+    { label: "FTV" },
+    { label: "MyGoPenNews" },
+    { label: "TFCNews" },
+    { label: "FactcheckLab" },
 ];
 
 export default newsSources;

@@ -48,7 +48,7 @@ export default () => {
                         />
                     </div>
                     <Button variant="contained" style={{ marginTop: 20 }} onClick={handleStartScraping}>
-                        Get News Articles
+                        Retry Web-Scraping
                     </Button>
                 </div>
                 <div style={{ fontWeight: "bold" }}>News count: {data ? data.length : 0}</div>
