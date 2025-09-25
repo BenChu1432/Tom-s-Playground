@@ -54,6 +54,7 @@ const newsSources = [
     { label: "NowNews" },
     { label: "StormMedia" },
     { label: "TVBS" },
+    { label: "GVM" },
     { label: "EBCNews" },
     { label: "ETtoday" },
     { label: "NewTalk" },
