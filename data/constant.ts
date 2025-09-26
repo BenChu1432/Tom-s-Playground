@@ -50,6 +50,7 @@ const newsSources = [
     { label: "SETN" },
     { label: "NextAppleNews" },
     { label: "TaroNews" },
+    { label: "PChome" },
     { label: "MirrorMedia" },
     { label: "NowNews" },
     { label: "StormMedia" },
